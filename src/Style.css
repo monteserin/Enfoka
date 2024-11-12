@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background-color: #f3f3f3;
+}
+
+.navbar {
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.contenido {
+  margin-top: 60px;
+  /* Espacio debajo de la barra de navegación */
+}
+
+/* Estilos para botones */
+.btn-send {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-send:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos del formulario de contacto */
+#formularioContacto {
+  width: 70%;
+  margin: auto;
+}
+
+#formularioContacto label {
+  display: block;
+  text-align: left;
+}
+
+/* Estilos del pie de página */
+footer {
+  background: #0D6EFD;
+  min-height: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Espacio entre elementos */
+.container.text-center.mt-5 {
+  margin-bottom: 50px;
+}
+
+
+
+
+/* Configuramos el contenedor principal como un flex column */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+/* El contenido principal crece para ocupar el espacio disponible */
+/* .content {
+      flex: 1;
+    } */
+
+/* El footer se mantiene en la parte inferior */
